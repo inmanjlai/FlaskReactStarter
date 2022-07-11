@@ -1,0 +1,99 @@
+.heading {
+    color: var(--accent);
+    text-align: center
+}
+
+.posts-container {
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.list-of-posts-container {
+    width: 70%;
+    max-width: 1200px;
+}
+
+.list-of-posts {
+    overflow-y: scroll;
+    height: 550px;
+    background-color: var(--secondary);
+}
+
+.single-post {
+    color: white;
+    padding: 8px 12px;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: 20px;
+}
+
+.single-post h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.post-user {
+    color: var(--accent-hover);
+    margin: 0;
+    padding: 0;
+}
+
+.post-content {
+    margin: 10px 0 0 0;
+    padding: 0;
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.create-form input, .create-form textarea {
+    background-color: var(--secondary);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    resize: none;
+    width: 93%;
+}
+
+.create-form input:focus-visible, .create-form textarea:focus-visible {
+    outline: none;
+}
+
+.create-form button {
+    padding: 8px 12px;
+    border: none;
+    font-weight: 600;
+    color: white;
+    background-color: var(--accent);
+    transition: background-color 0.3s;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.create-form button:hover {
+    background-color: var(--accent-hover);
+}
+
+.user-controls button {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+    padding: 8px 12px;
+    border: none;
+    background-color: var(--accent);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.user-controls button:hover {
+    background-color: var(--accent-hover)
+}
